@@ -1,0 +1,215 @@
+header{
+    height: 60px;
+    /*border: 2px solid red;*/
+    background-color:#ef4f5f;
+}
+
+
+button{
+    height: 38px;
+    width: 100px;
+    background-color:#213b50;
+    margin-top: 6%;
+    border-radius: 10%;
+    cursor: pointer;
+    color: whitesmoke;
+    
+}
+
+#Login{
+    background-color:rgb(81, 161, 61);
+}
+
+#Signup{
+    background-color:#4d8bbe;
+}
+
+#name{
+    float: left;
+    display: flex;
+    
+}
+
+#name > img{
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+#name > button{
+    margin-left: 5%;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+
+body{
+    margin: auto;
+    background-color: rgb(243, 236, 227);
+}
+
+/*Search CSS*/
+.container{
+    height: 700px;
+    width: 90%;
+    /*border: 2px solid blue;*/
+    margin-left: 7%;
+    margin-top: 4%;
+
+}
+
+#filter{
+    height:700px ;
+    width: 20%;
+    border: 5px solid gray;
+    float: left;
+    color:#213b50;
+}
+
+#filter h1{
+    text-align: center;
+    
+}
+
+#filter h2{
+    text-align: center;
+}
+
+#filter input{
+    margin-left: 42%;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+
+
+#content{
+    /*height: 700px;*/
+    width: 70%;
+    margin-left: 5% ;
+    /*border: 2px solid red;*/
+    float: left;
+    cursor: pointer;
+}
+
+#tile img{
+    height: 90%;
+    width: 40%;
+    float: left;
+    border-radius: 8%;
+    margin-left: 1%;
+}
+
+.restro{
+    float:left;
+    margin-left: 3%;
+    font-weight: bold;
+    color: #2f2377;
+    margin-top: -2%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#cards{
+   height: 27px;
+   width: 25%;
+   /*border:2px solid red;*/
+   border-radius: 13%;
+   float: left;
+   margin-left: 2%;
+   margin-top: 2%;
+   text-align: center;
+   background-color: rgb(174, 238, 216);
+}
+
+.card1{
+    background-color: #e78fd1;
+    height: 27px;
+    border-radius: 13%;
+}
+
+.card2{
+    background-color: #a3aae7;
+    height: 27px;
+    border-radius: 13%;
+   
+}
+
+.card3{
+    background-color: #6bc8f3;
+    height: 27px;
+    border-radius: 13%;
+}
+
+.card4{
+    background-color: #ddbdbd;
+    height: 27px;
+    border-radius: 13%;
+}
+
+#tiles img{
+    height: 90%;
+    width: 40%;
+    float: left;
+    border-radius: 8%;
+    margin-left: 1%;
+}
+
+.card5{
+    background-color: #ecd27d;
+    height: 27px;
+    border-radius: 13%;
+}
+
+.card6{
+    background-color: #ceec7d;
+    height: 27px;
+    border-radius: 13%;
+}
+
+
+
+#tile{
+    height: 300px;
+    width: 85%;
+    /*border: 2px solid blue;*/
+    box-shadow: 5px 5px 8px gray;
+    margin-left: 2%;
+}
+
+#tiles{
+    height: 300px;
+    width: 85%;
+    /*border: 2px solid blue;*/
+    box-shadow: 5px 5px 8px gray;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+
+/*footer CSS*/
+footer{
+    height: 150px;
+    /*border: 2px solid red;*/
+    background-color:whitesmoke ;  
+    margin-top: 15%;
+    
+}
+
+footer p{
+    display: inline-block;
+    margin-left: 33%;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2;
+}
+
+.line{
+    margin-left: 2%; 
+}
+
+.link{
+    margin-left: 3%;
+}
+

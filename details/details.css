@@ -1,0 +1,127 @@
+header{
+    height: 60px;
+    /*border: 2px solid red;*/
+    background-color:#ef4f5f;
+}
+
+
+button{
+    height: 38px;
+    width: 100px;
+    background-color:#213b50;
+    margin-top: 6%;
+    border-radius: 10%;
+    cursor: pointer;
+    color: whitesmoke;
+    
+}
+
+#Login{
+    background-color:rgb(81, 161, 61);
+}
+
+#Signup{
+    background-color:#4d8bbe;
+}
+
+#name{
+    float: left;
+    display: flex;
+    
+}
+
+#name > img{
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+#name > button{
+    margin-left: 5%;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+
+body{
+    margin: auto;
+    background-color: rgb(243, 236, 227);
+}
+
+/*Search CSS*/
+
+.container{
+    height: 400px;
+    width: 90%;
+    /*border: 2px solid blue;*/
+    margin-left: 7%;
+    margin-top: 4%;
+
+}
+
+#imgDiv{
+    height: 400px;
+    width: 35%;
+    /*border: 2px solid blue;*/
+    float: left;
+}
+
+#imgDiv img{
+    height: 100%;
+    width: 100%;
+    border: 5px groove black;
+}
+
+#contentDiv{
+    height: 600px;
+    width: 55%;
+    /*border: 2px solid blue;*/
+    margin-left: 4%;
+    float: left;
+    color:#213b50;
+    margin-top: -1%;
+}
+
+figure{
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-left:2;
+}
+
+figure img{
+    width: 100%; 
+    height: 80%;    
+}
+
+.starClass{
+    color: green;
+}
+
+/*footer CSS*/
+footer{
+    height: 150px;
+    /*border: 2px solid red;*/
+    background-color:whitesmoke ;  
+    margin-top: 15%;
+    
+}
+
+footer p{
+    display: inline-block;
+    margin-left: 33%;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2;
+}
+
+.line{
+    margin-left: 2%; 
+}
+
+.link{
+    margin-left: 3%;
+}
+

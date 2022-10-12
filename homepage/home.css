@@ -17,11 +17,11 @@ button{
 }
 
 #Login{
-    background-color:#213b50;
+    background-color:rgb(81, 161, 61);
 }
 
 #Signup{
-    background-color:#213b50;
+    background-color:#4d8bbe;
 }
 
 #name{
@@ -54,7 +54,7 @@ body{
 #search{
     height: 500px;
     /*border: 2px solid blue;*/
-    background-image: url(Images/bgimage.avif);
+    background-image: url(../Images/bgimage.avif);
     background-repeat: no-repeat;
     background-size:cover ;
 }
