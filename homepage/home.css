@@ -60,7 +60,7 @@ button{
 #search{
     height: 500px;
     /*border: 2px solid blue;*/
-    background-image: url(../Images/bgimage.avif);
+    background-image: url(Images/bgimage.avif);
     background-repeat: no-repeat;
     background-size:cover ;
 }
