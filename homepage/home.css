@@ -1,19 +1,32 @@
+body{
+    margin: auto;
+    background-color: rgb(240, 210, 243);
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
 header{
     height: 60px;
     /*border: 2px solid red;*/
-    background-color:#ef4f5f;
+    background-color: #3b2632;
 }
 
+@media screen {
+
+}
 
 button{
-    height: 38px;
+    height: 35px;
     width: 100px;
     background-color:#213b50;
     margin-top: 6%;
-    border-radius: 10%;
+    border-radius: 3px;
     cursor: pointer;
-    color: whitesmoke;
-    
+    color: white;
+    border: none;
 }
 
 #Login{
@@ -27,30 +40,23 @@ button{
 #name{
     float: left;
     display: flex;
-    
+    color: azure;
 }
 
-#name > img{
+#name > h1{
     height: 30px;
-    margin-left: 5%;
+    margin-left: 20%;
     margin-top: 6%;
 }
 
-#name > button{
-    margin-left: 5%;
-}
 
 #social{
     float: right;
     margin-right: 2%;
 }
 
-body{
-    margin: auto;
-    background-color: rgb(243, 236, 227);
-}
-
 /*Search CSS*/
+
 #search{
     height: 500px;
     /*border: 2px solid blue;*/
@@ -165,26 +171,26 @@ select{
 
 /*footer CSS*/
 footer{
-    height: 150px;
+    /*height: 100px;*/
     /*border: 2px solid red;*/
-    background-color:whitesmoke ;  
+    background-color:#3b2632;  
     margin-top: 3%;
-    
+    text-align: center;
+    color: azure;
 }
 
-footer p{
+.about{
+    height: 70px;
+    width: 33%;
     display: inline-block;
-    margin-left: 33%;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2;
+    border-right: 2px solid azure;
 }
 
-.line{
-    margin-left: 2%; 
+.noBorder{
+    border:none;
 }
 
-.link{
-    margin-left: 3%;
+.socialIcon{
+    height: 50px;
+    width: 50px;
 }
-

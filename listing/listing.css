@@ -1,18 +1,29 @@
-header{
-    height: 60px;
-    /*border: 2px solid red;*/
-    background-color:#ef4f5f;
+body{
+    margin: auto;
+    background-color: rgb(240, 210, 243);
+    font-family: sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color:#3b2632;
+    position: fixed;
+    width: 100%;
+}
 
 button{
-    height: 38px;
+    height: 35px;
     width: 100px;
     background-color:#213b50;
     margin-top: 6%;
-    border-radius: 10%;
+    border-radius: 3px;
     cursor: pointer;
-    color: whitesmoke;
+    color: white;
+    border: none;
     
 }
 
@@ -27,17 +38,18 @@ button{
 #name{
     float: left;
     display: flex;
-    
+    color: azure;
 }
 
-#name > img{
+#name > h1{
     height: 30px;
-    margin-left: 5%;
+    margin-left: 20%;
     margin-top: 6%;
 }
 
-#name > button{
-    margin-left: 5%;
+.home{
+    margin-left: 15%;
+    margin-top: 12%;
 }
 
 #social{
@@ -45,171 +57,160 @@ button{
     margin-right: 2%;
 }
 
-body{
-    margin: auto;
-    background-color: rgb(243, 236, 227);
-}
 
 /*Search CSS*/
 .container{
     height: 700px;
     width: 90%;
     /*border: 2px solid blue;*/
-    margin-left: 7%;
-    margin-top: 4%;
+    margin-left: 5%;
+    margin-top: 7%;
+    display: inline-block;
 
 }
 
 #filter{
-    height:700px ;
+    height:500px ;
     width: 20%;
-    border: 5px solid gray;
+    box-shadow: 1px 5px 10px black;
     float: left;
     color:#213b50;
 }
 
 #filter h1{
     text-align: center;
-    
+    padding: 3px;
+    border-bottom: 1px solid white;  
 }
 
 #filter h2{
     text-align: center;
+    margin-bottom: 8px;
 }
 
 #filter input{
-    margin-left: 42%;
-    margin-top: 3%;
+    margin-left: 12px;
+    margin-top: 8px;
     cursor: pointer;
-
+    margin-right: 7px;
 }
 
 
 #content{
     /*height: 700px;*/
-    width: 70%;
-    margin-left: 5% ;
+    width: 75%;
+    margin-left: 4% ;
     /*border: 2px solid red;*/
     float: left;
-    cursor: pointer;
 }
 
-#tile img{
-    height: 90%;
-    width: 40%;
-    float: left;
-    border-radius: 8%;
-    margin-left: 1%;
-}
-
-.restro{
-    float:left;
-    margin-left: 3%;
-    font-weight: bold;
-    color: #2f2377;
-    margin-top: -2%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-#cards{
-   height: 27px;
-   width: 25%;
-   /*border:2px solid red;*/
-   border-radius: 13%;
-   float: left;
-   margin-left: 2%;
-   margin-top: 2%;
-   text-align: center;
-   background-color: rgb(174, 238, 216);
-}
-
-.card1{
-    background-color: #e78fd1;
-    height: 27px;
-    border-radius: 13%;
-}
-
-.card2{
-    background-color: #a3aae7;
-    height: 27px;
-    border-radius: 13%;
-   
-}
-
-.card3{
-    background-color: #6bc8f3;
-    height: 27px;
-    border-radius: 13%;
-}
-
-.card4{
-    background-color: #ddbdbd;
-    height: 27px;
-    border-radius: 13%;
-}
-
-#tiles img{
-    height: 90%;
-    width: 40%;
-    float: left;
-    border-radius: 8%;
-    margin-left: 1%;
-}
-
-.card5{
-    background-color: #ecd27d;
-    height: 27px;
-    border-radius: 13%;
-}
-
-.card6{
-    background-color: #ceec7d;
-    height: 27px;
-    border-radius: 13%;
-}
-
-
-
-#tile{
-    height: 300px;
-    width: 85%;
-    /*border: 2px solid blue;*/
-    box-shadow: 5px 5px 8px gray;
+#item{
     margin-left: 2%;
+    display: flex;
+    box-shadow: 1px 5px 10px black;
+    height: 260px;
+    margin-bottom: 40px;
 }
 
-#tiles{
-    height: 300px;
-    width: 85%;
-    /*border: 2px solid blue;*/
-    box-shadow: 5px 5px 8px gray;
+#item:hover{
+    transform:scale() ;
+}
+
+.foodImage{
     margin-top: 1%;
     margin-left: 2%;
+}
+
+.foodImage img{
+    border-radius: 15px;
+    width: 400px;
+    height: 230px;
+}
+
+.foodDescription{
+    margin-left: 2%;
+}
+
+.foodDescription button{
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 2%;
+}
+
+#lunch{
+    background-color: green;
+    transition: background 0.2s ease-in-out;
+}
+
+#lunch:hover{
+    background: white;
+    color: green;
+    border: 1px solid green;
+
+}
+
+#fast-food{
+    background-color: orangered;
+    transition: background 0.2s ease-in-out;
+}
+
+#fast-food:hover{
+    background: white;
+    color: orangered;
+    border: 1px solid orangered;
+
+}
+
+#north-indian{
+    background-color: coral;
+    transition: background 0.2s ease-in-out;
+}
+
+#north-indian:hover{
+    background: white;
+    color: coral;
+    border: 1px solid coral;
+
+}
+
+#south-indian{
+    background-color: cornflowerblue;
+    transition: background 0.2s ease-in-out;
+}
+
+#south-indian:hover{
+    background: white;
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+
 }
 
 
 /*footer CSS*/
 footer{
-    height: 150px;
+    /*height: 100px;*/
     /*border: 2px solid red;*/
-    background-color:whitesmoke ;  
+    background-color:#3b2632;  
     margin-top: 15%;
-    
+    text-align: center;
+    color: azure;
 }
 
-footer p{
+.about{
+    height: 70px;
+    width: 33%;
     display: inline-block;
-    margin-left: 33%;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2;
+    border-right: 2px solid azure;
 }
 
-.line{
-    margin-left: 2%; 
+.noBorder{
+    border:none;
 }
 
-.link{
-    margin-left: 3%;
+.socialIcon{
+    height: 50px;
+    width: 50px;
 }
 
