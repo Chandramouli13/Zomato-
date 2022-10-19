@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    background-color: rgb(240, 210, 243);
+    background-color: whitesmoke;
     font-family: sans-serif;
 }
 
@@ -10,7 +10,7 @@ a{
 
 header{
     height: 60px;
-    background-color:#3b2632;
+    background-color:#213b50;
     position: fixed;
     width: 100%;
 }
@@ -18,7 +18,7 @@ header{
 button{
     height: 35px;
     width: 100px;
-    background-color:#213b50;
+    background-color:#4a3c70;
     margin-top: 6%;
     border-radius: 3px;
     cursor: pointer;
@@ -72,15 +72,16 @@ button{
 #filter{
     height:500px ;
     width: 20%;
-    box-shadow: 1px 5px 10px black;
+    border: 2px groove gray;
     float: left;
     color:#213b50;
+    background-color:rgb(186, 200, 209);
 }
 
 #filter h1{
     text-align: center;
     padding: 3px;
-    border-bottom: 1px solid white;  
+    border-bottom: 1px solid gray;  
 }
 
 #filter h2{
@@ -107,14 +108,12 @@ button{
 #item{
     margin-left: 2%;
     display: flex;
-    box-shadow: 1px 5px 10px black;
-    height: 260px;
+    box-shadow: 0px 2px 2px gray;
+    height: 350px;
     margin-bottom: 40px;
+    background-color: rgb(211, 243, 243);
 }
 
-#item:hover{
-    transform:scale() ;
-}
 
 .foodImage{
     margin-top: 1%;
@@ -122,78 +121,61 @@ button{
 }
 
 .foodImage img{
-    border-radius: 15px;
+    border-radius: 50px;
     width: 400px;
-    height: 230px;
+    height: 300px;
+    cursor: pointer;
 }
 
 .foodDescription{
     margin-left: 2%;
 }
 
-.foodDescription button{
-    height: 30px;
-    border: none;
-    cursor: pointer;
+.foodDescription h2{
+    color: blueviolet;
+}
+
+.foodDescription p{
+    color: gray;
+}
+
+.foodDescription div{
+    height: 24px;
+    width: 110px;
     margin-right: 10px;
-    margin-top: 2%;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
 }
 
-#lunch{
+.lunch{
     background-color: green;
-    transition: background 0.2s ease-in-out;
 }
 
-#lunch:hover{
-    background: white;
-    color: green;
-    border: 1px solid green;
-
-}
-
-#fast-food{
+.fast-food{
     background-color: orangered;
-    transition: background 0.2s ease-in-out;
 }
 
-#fast-food:hover{
-    background: white;
-    color: orangered;
-    border: 1px solid orangered;
-
+.north-indian{
+    background-color: rgb(218, 124, 90);
 }
 
-#north-indian{
-    background-color: coral;
-    transition: background 0.2s ease-in-out;
+.south-indian{
+    background-color: rgb(79, 108, 163);
 }
 
-#north-indian:hover{
-    background: white;
-    color: coral;
-    border: 1px solid coral;
-
+.dinner{
+    background-color: #9abb09;
 }
-
-#south-indian{
-    background-color: cornflowerblue;
-    transition: background 0.2s ease-in-out;
-}
-
-#south-indian:hover{
-    background: white;
-    color: cornflowerblue;
-    border: 1px solid cornflowerblue;
-
-}
-
 
 /*footer CSS*/
 footer{
     /*height: 100px;*/
     /*border: 2px solid red;*/
-    background-color:#3b2632;  
-    margin-top: 15%;
+    background-color:#213b50;  
+    margin-top: 30%;
     text-align: center;
     color: azure;
 }
